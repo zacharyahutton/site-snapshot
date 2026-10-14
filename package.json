@@ -1,0 +1,20 @@
+{
+  "name": "site-snapshot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Save a website and its assets for offline review (wget first, Node fallback)",
+  "bin": {
+    "site-snapshot": "./bin/site-snapshot.js"
+  },
+  "scripts": {
+    "snapshot": "node ./bin/site-snapshot.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "website-scraper": "^5.3.1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

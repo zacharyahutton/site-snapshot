@@ -1,0 +1,6 @@
+﻿node_modules/
+*.zip
+Website-downloader-master.zip
+.DS_Store
+Thumbs.db
+snapshots/
